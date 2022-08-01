@@ -13,7 +13,8 @@ const navbar = () => {
         <li><a href="#">Rent</a></li>
         <li><a href="#">Buy</a></li>
         <li><a href="#">Sell</a></li>
-        <li><a href="#">Manage Property</a></li>
+        <li className="dropdown"><span href="#">Manage Property</span>
+        <div className="dropdown-content">Hello World</div></li>
         <li><a href="#">Resources</a></li>
         </ul>
       </nav>
