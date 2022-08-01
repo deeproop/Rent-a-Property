@@ -9,6 +9,10 @@ const details = [
     beds: "3",
     bathroom: "2",
     area: "5x7",
+    priceCategory: "$500-$2500",
+    locationCategory: "New York,USA",
+    houseTypeCategory: "Houses",
+    dateCategory: "5-Aug-2022"
   },
   {
     id: 2,
@@ -20,6 +24,10 @@ const details = [
     beds: "3",
     bathroom: "2",
     area: "5x7",
+    priceCategory: "$500-$2500",
+    locationCategory: "New York,USA",
+    houseTypeCategory: "Houses",
+    dateCategory: "5-Aug-2022"
   },
   {
     id: 3,
@@ -31,6 +39,10 @@ const details = [
     beds: "3",
     bathroom: "2",
     area: "5x7",
+    priceCategory: "$500-$2500",
+    locationCategory: "New York,USA",
+    houseTypeCategory: "Houses",
+    dateCategory: "5-Aug-2022"
   },
   {
     id: 4,
@@ -42,6 +54,10 @@ const details = [
     beds: "3",
     bathroom: "2",
     area: "5x7",
+    priceCategory: "$500-$2500",
+    locationCategory: "New York,USA",
+    houseTypeCategory: "Houses",
+    dateCategory: "5-Aug-2022"
   },
   {
     id: 5,
@@ -53,6 +69,10 @@ const details = [
     beds: "3",
     bathroom: "2",
     area: "5x7",
+    priceCategory: "$500-$2500",
+    locationCategory: "New York,USA",
+    houseTypeCategory: "Houses",
+    dateCategory: "5-Aug-2022"
   },
   {
     id: 6,
@@ -64,6 +84,10 @@ const details = [
     beds: "3",
     bathroom: "2",
     area: "5x7",
+    priceCategory: "$500-$2500",
+    locationCategory: "New York,USA",
+    houseTypeCategory: "Houses",
+    dateCategory: "5-Aug-2022"
   },
   {
     id: 7,
@@ -75,6 +99,10 @@ const details = [
     beds: "3",
     bathroom: "2",
     area: "5x7",
+    priceCategory: "$500-$2500",
+    locationCategory: "New York,USA",
+    houseTypeCategory: "Houses",
+    dateCategory: "5-Aug-2022"
   },
   {
     id: 8,
@@ -86,6 +114,10 @@ const details = [
     beds: "3",
     bathroom: "2",
     area: "5x7",
+    priceCategory: "$500-$2500",
+    locationCategory: "New York,USA",
+    houseTypeCategory: "Houses",
+    dateCategory: "5-Aug-2022"
   },
   {
     id: 9,
@@ -97,6 +129,10 @@ const details = [
     beds: "3",
     bathroom: "2",
     area: "5x7",
+    priceCategory: "$500-$2500",
+    locationCategory: "New York,USA",
+    houseTypeCategory: "Houses",
+    dateCategory: "5-Aug-2022"
   },
 ];
 

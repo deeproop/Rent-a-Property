@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { FaSink } from "react-icons/fa";
 import { BiBed, BiArea } from "react-icons/bi";
 import "./Card.scss";
@@ -9,6 +9,14 @@ function propertyCard() {
 }
 
 function Card(props) {
+  const [items, setItems] = useState(Details);
+
+  const filterItem = (categItem) => {
+    const updatedItems = Details.filter((currentElement) => {
+      return currentElement.priceCategory === categItem;
+    })
+  }
+
   const idCheck = props.id;
   return (
     <div className="card">
