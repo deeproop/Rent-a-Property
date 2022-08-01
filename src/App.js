@@ -1,22 +1,8 @@
 import React from 'react';
-import propertyDetails from './components/propertyCard/PropertyDetails';
 import './App.scss';
 
-import { Navbar, Header, Filter, PropertyCard } from './components';
+import { Navbar, Header, Filter, PropertyCard} from './components';
 
-function createCard(info) {
-  return (
-    <PropertyCard
-      key={info.id}
-      name={info.name}
-      image={info.image}
-      address={info.address}
-      bedroom={info.beds}
-      bathroom={info.bathroom}  
-      area={info.area}
-    />
-  );
-}
 
 function App() {
   return (
@@ -27,11 +13,9 @@ function App() {
       
       <Filter />
 
-      <div className='property-card'>
-      {propertyDetails.map(PropertyCard)}
+      <PropertyCard />
       
       </div>
-    </div>
   );
 }
 
