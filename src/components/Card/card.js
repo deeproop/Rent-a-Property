@@ -9,12 +9,15 @@ function propertyCard() {
 }
 
 function Card(props) {
+  const idCheck = props.id;
   return (
     <div className="card">
+      
       <div className="card__body">
         <img src={props.image} className="card__image img" />
+        {idCheck === 1 ?<h3 className="popular">✨ POPULAR</h3>:""}
         <div className="card_content">
-          <h2 className="card__price">{props.price}/month</h2>
+          <div className="card__price"><h3>{props.price}</h3>/month</div>
           <h2 className="card__title">{props.name}</h2>
           <p className="card__description">{props.address}</p>
         </div>
@@ -35,7 +38,9 @@ function Card(props) {
         <div className="name-icon">
           <div className="icon">
             <BiArea />
-            <span>{props.area} m<sup>2</sup></span>
+            <span>
+              {props.area} m<sup>2</sup>
+            </span>
           </div>
         </div>
       </div>
