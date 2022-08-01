@@ -1,23 +1,23 @@
 .filter-box {
-    padding: 10px;
-    border-radius: 8px;
+    padding: 1rem;
+    border-radius: .8rem;
     background: #ffffff;
-    box-shadow: 0 20px 40px -43px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2rem 4rem -4.3rem rgba(0, 0, 0, 0.25);
 }
 
 
 .filter-box div{
-    padding-right: 60px;
-    padding-left: 20px;
-    font-size: 17px;
+    padding-right: 6rem;
+    padding-left: 2rem;
+    font-size: 1.7rem;
     font-weight: 700;
-    border-right: 1px solid #b2b1b9;
+    border-right: .1rem solid #b2b1b9;
 }
 
 h5{
     color: #afafb1;
-    margin-bottom: 10px;
-    font-size: 14px;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
 }
 
 .dropdown-content a:hover{

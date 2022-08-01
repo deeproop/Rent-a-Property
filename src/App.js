@@ -1,5 +1,4 @@
 import React from 'react';
-import propertyDetails from './components/propertyCard/PropertyDetails';
 import './App.scss';
 
 import { Navbar, Header, Filter, PropertyCard} from './components';

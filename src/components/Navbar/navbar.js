@@ -7,12 +7,10 @@ import {} from "@fortawesome/free-regular-svg-icons";
 const navbar = () => {
   return (
     <header>
-      <div className="logo">
-        <FontAwesomeIcon icon={faHouse} color="#7065ee" />
-        <strong> Estatery</strong>
-      </div>
       <nav>
         <ul className="nav__links">
+         <li className="logo"><a><FontAwesomeIcon icon={faHouse} color="#7065ee" />
+        <strong> Estatery</strong></a></li>
           <li>
             <a href="#">Rent</a>
           </li>
